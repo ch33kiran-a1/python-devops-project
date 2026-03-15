@@ -2,8 +2,8 @@ trigger:
 - main
 
 pool:
-  vmImage: 'ubuntu-latest'
+  name: Default
 
 steps:
-- script: echo "Pipeline is running successfully"
-  displayName: 'Test pipeline'
+- script: echo "Pipeline running on self-hosted agent"
+  displayName: Test Self Hosted Agent
